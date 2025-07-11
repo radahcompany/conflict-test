@@ -12,6 +12,10 @@ resource "azurerm_resource_group" "rg-cluster1" {
 resource "azurerm_resource_group" "rg-cluster2" {
   name     = "rg-cluster2"
   location = "Australia East"
+}
+resource "azurerm_resource_group" "rg-cluster1" {
+  name     = "rg-cluster1"
+  location = "Australia East"
 
 }
 
