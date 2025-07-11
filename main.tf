@@ -9,6 +9,11 @@ resource "azurerm_resource_group" "rg-cluster1" {
   location = "Australia East"
 
 }
+resource "azurerm_resource_group" "rg-cluster2" {
+  name     = "rg-cluster2"
+  location = "Australia East"
+
+}
 
 resource "azurerm_kubernetes_cluster" "aks-cluster" {
   name                = "aks-cluster001"
